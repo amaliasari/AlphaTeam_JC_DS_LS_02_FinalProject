@@ -215,16 +215,16 @@ Proses yang dilakukan pada tahap ini adalah sebagai berikut.
 ### **4.1 Data Analysis**
 
 Proses yang dilakukan pada tahap ini adalah sebagai berikut.
-- Analisa Total Order by Month
-- Analisa Review Score Proportion
-- Analisa Review Score by Month
-- Analisa Review Score 1 & 2 by Month
+- Analisis Total Order by Month
+- Analisis Review Score Proportion
+- Analisis Review Score by Month
+- Analisis Review Score 1 & 2 by Month
 - Word Cloud Review Comment Message (Review Score 1 & 2)
-- Analisa Delivery Time (Seller Confirmed, Seller to Carrier, Carrier to Buyer)
+- Analisis Delivery Time (Seller Confirmed, Seller to Carrier, Carrier to Buyer)
 - Cohort Analysis untuk New Customer Retention
-- Analisa Total New Customer by Month
-- Analisa Total Order by Hour
-- Analisa Total Order by Day
+- Analisis Total New Customer by Month
+- Analisis Total Order by Hour
+- Analisis Total Order by Day
 
 ### **4.2 Manual Segmentation Using RFM Feature**
 
@@ -274,11 +274,11 @@ Dari setiap model yang digunakan, segmentasi *customer* dikelompokkan berdasarka
 ### **4.8 K-Means Model Segmentation Analysis**
 
 Proses yang dilakukan pada tahap ini adalah sebagai berikut.
-- Analisa Categorical Feature
+- Analisis Categorical Feature
   - Proporsi Berdasarkan Product_Category_Name
   - Proporsi Berdasarkan Customer_City
   - Proporsi Berdasarkan Payment_Type
-- Analisa Categorical Feature
+- Analisis Numerical Feature
   - Data Correlation
   - Proporsi Berdasarkan Price
   - Proporsi Berdasarkan Payment_Installments
@@ -426,9 +426,5 @@ Bila dilihat dari seluruh *customer*, rekomendasi yang dapat diberikan sebagai b
 - *Customer* Olist Store lebih suka melakukan pembayaran dengan metode cicilan, sehingga Olist Store perlu berkerja sama dengan lebih banyak bank agar *customer* memiliki lebih banyak pilihan pembayaran ketika berbelanja karena bank menjadi jembatan antara *customer* dan Olist Store dalam hal transaksi.
 
 - Karena jumlah order semakin mendekati *weekend* mengalami penurunan yang disebabkan oleh banyaknya masyarakat yang lebih memilih untuk berbelanja di *offline store*, Olist Store dapat bekerja sama dengan *offline store* untuk memberikan reward berupa *voucher* yang dapat digunakan untuk berbelanja di Olist Store pada *weekend*.
-
-
-
-
 
 
