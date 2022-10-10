@@ -185,6 +185,17 @@ Dataset ini memiliki informasi mengenai penjual yang menyelesaikan order yang di
 | Seller_City   | object    | seller city name |
 | Seller_State  | object | seller state |
 
+### **2.9 Product Category Name Translation Dataset**
+
+Dataset ini memiliki informasi mengenai terjemahan `product_category_name` dari bahasa portugis ke bahasa inggris.
+
+**Attributes Information**
+
+| **Attribute** | **Data Type** | **Description** |
+| --- | --- | --- |
+| Product_Category_Name           | object    | category name in Portuguese |
+| Product_Category_Name_English     | object  | category name in English |
+
 ### **2.10 Data Schema**
 
 Data ini terbagi menjadi 9 dataset. hubungan antar dataset dapat dilihat pada gambar schema berikut.
