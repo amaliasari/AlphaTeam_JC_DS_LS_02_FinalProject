@@ -55,3 +55,39 @@ Evaluasi metrik yang akan digunakan adalah metode *silhouette* dan *elbow* untuk
 2. *Silhouette Method*
 
 ## **2. Data Understanding**
+
+**Dataset source :** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv
+
+**Data Info**
+
+Data ini dibuat oleh *Olist* dan berisikan informasi *customer, seller, product, order, review, dan geolocation* dari Olist Store di Brazil mulai tahun 2016 hingga 2018
+
+### **2.1 Customers Dataset**
+
+Dataset ini memiliki informasi mengenai *customers* dan lokasinya. Dataset ini digunakan untuk mengidentifikasi *unique customers* pada dataset *orders* dan untuk mendapatkan *orders delivery location*-nya.
+Pada sistem kami, masing-masing *order* memiliki *unique customer ID*. Ini artinya *customer* yang sama akan mendapatkan ID yang berbeda untuk setiap *order* yang dibuat. Tujuan dari adanya *customer_unique_id* adalah untuk mengidentifikasi *customer* yang melakukan pembelanjaan berulang-ulang. Bila tidak ada, setiap order seperti dilakukan oleh pembeli yang berbeda-beda.
+
+**Attributes Information**
+
+| **Attribute** | **Data Type** | **Description** |
+| --- | --- | --- |
+| Customer_ID             | object    | key to the orders dataset. Each order has a unique customer_id |
+| Customer_Unique_ID      | object    | unique identifier of a customer |
+| Customer_Zip_Code_Prefix | int64     | first five digits of customer zip code |
+| Customer_City           | object    | customer city name |
+| Customer_State          | object    | customer state |
+
+### **2.2 Geolocation Dataset**
+
+Dataset ini memiliki informasi mengenai kodepos di Brazil beserta koordinat *latitude* dan *longitude*-nya. Dataset ini digunakan untuk mem-*plot* peta dan menemukan jarak antara penjual dan pembeli.
+
+**Attributes Information**
+
+| **Attribute** | **Data Type** | **Description** |
+| --- | --- | --- |
+| Geolocation_Zip_Code_Prefix   | int64 | first 5 digits of zip code |
+| Geolocation_Latitude   | float64   | latitude |
+| Geolocation_Longitude   | float64   | longitude |
+| Geolocation_City  | object    | city name |
+| Geolocation_State | object    | state |
+
