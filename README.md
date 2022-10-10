@@ -427,4 +427,4 @@ Bila dilihat dari seluruh *customer*, rekomendasi yang dapat diberikan sebagai b
 
 - Karena jumlah order semakin mendekati *weekend* mengalami penurunan yang disebabkan oleh banyaknya masyarakat yang lebih memilih untuk berbelanja di *offline store*, Olist Store dapat bekerja sama dengan *offline store* untuk memberikan reward berupa *voucher* yang dapat digunakan untuk berbelanja di Olist Store pada *weekend*.
 
-
+--
