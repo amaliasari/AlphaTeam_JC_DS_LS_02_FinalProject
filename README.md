@@ -426,5 +426,3 @@ Bila dilihat dari seluruh *customer*, rekomendasi yang dapat diberikan sebagai b
 - *Customer* Olist Store lebih suka melakukan pembayaran dengan metode cicilan, sehingga Olist Store perlu berkerja sama dengan lebih banyak bank agar *customer* memiliki lebih banyak pilihan pembayaran ketika berbelanja karena bank menjadi jembatan antara *customer* dan Olist Store dalam hal transaksi.
 
 - Karena jumlah order semakin mendekati *weekend* mengalami penurunan yang disebabkan oleh banyaknya masyarakat yang lebih memilih untuk berbelanja di *offline store*, Olist Store dapat bekerja sama dengan *offline store* untuk memberikan reward berupa *voucher* yang dapat digunakan untuk berbelanja di Olist Store pada *weekend*.
-
---
